@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>Droplets</title>
+		<link rel="stylesheet" href="droplets.css" type="text/css" /> 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+		</script>
+
+				<script type="text/javascript" src="jquery.droplets.js">
+		</script>
+		<script>
+
+		 $(document).ready(function() {
+		   // put all your jQuery goodness in here.
+					$("body").droplets({
+				    maxRadius: 50,
+				    dropRate: 1,
+				    dropSpreadTime: 2000
+				  });
+					$("#box1").droplets();
+		 });
+		</script>
+	</head>
+	<body>
+		HOLY DROPLETS BATMAN!
+				<div id="box1"></div>
+
+<p></p>
+	</body>
+</html>
